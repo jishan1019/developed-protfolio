@@ -1,4 +1,75 @@
 *{
     margin: 0;
-    
+    font-family: 'Open Sans';
 }
+/* Haeader and nagivation titel */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+.header{
+    background: #fff8f3;
+    background-image: url(../image/header_bg.png),url(../image/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+
+.nav-titel{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+
+#titel-span{
+    color: orange;
+}
+
+button{
+    background-color:orange;
+    border: none;
+    height: 64px;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-size: 700;
+    padding: 18px 35px;
+}
+
+/* Bannar style */
+
+.bannar{
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+}
+
+.bannr-sub-titel{
+    font-weight: 400;
+    font-size: 35px;
+
+}
+
+.bannar-titel{
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.bannar-description{
+    color: orangered;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
